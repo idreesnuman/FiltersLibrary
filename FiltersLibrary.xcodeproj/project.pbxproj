@@ -6,10 +6,47 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1A5BE30F1A381D9C00FFD35E /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A5BE3101A381D9C00FFD35E /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				1A5BE3151A381DE700FFD35E /* MultiPlatform Build */,
+			);
+			dependencies = (
+				1A5BE3141A381DDD00FFD35E /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1A8B9C221A371D0000ECD8E8 /* FiltersLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A8B9C211A371D0000ECD8E8 /* FiltersLibrary.h */; };
-		1A8B9C241A371D0000ECD8E8 /* FiltersLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B9C231A371D0000ECD8E8 /* FiltersLibrary.m */; };
+		1A8B9C4E1A371D3500ECD8E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B9C4D1A371D3500ECD8E8 /* UIKit.framework */; };
+		1A8B9C501A371D4300ECD8E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B9C4F1A371D4300ECD8E8 /* Foundation.framework */; };
+		1A8B9C521A371D5900ECD8E8 /* FiltersLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B9C211A371D0000ECD8E8 /* FiltersLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8B9C661A371D7200ECD8E8 /* RWViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B9C561A371D7200ECD8E8 /* RWViewController.h */; };
+		1A8B9C671A371D7200ECD8E8 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B9C571A371D7200ECD8E8 /* RWViewController.m */; };
+		1A8B9C681A371D7200ECD8E8 /* RWKnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B9C5B1A371D7200ECD8E8 /* RWKnobControl.h */; };
+		1A8B9C691A371D7200ECD8E8 /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B9C5C1A371D7200ECD8E8 /* RWKnobControl.m */; };
+		1A8B9C6A1A371D7200ECD8E8 /* RWKnobRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B9C5D1A371D7200ECD8E8 /* RWKnobRenderer.h */; };
+		1A8B9C6B1A371D7200ECD8E8 /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B9C5E1A371D7200ECD8E8 /* RWKnobRenderer.m */; };
+		1A8B9C6C1A371D7200ECD8E8 /* RWRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B9C5F1A371D7200ECD8E8 /* RWRotationGestureRecognizer.h */; };
+		1A8B9C6D1A371D7200ECD8E8 /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B9C601A371D7200ECD8E8 /* RWRotationGestureRecognizer.m */; };
+		1A8B9C6E1A371D7200ECD8E8 /* RWRibbonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B9C641A371D7200ECD8E8 /* RWRibbonView.h */; };
+		1A8B9C6F1A371D7200ECD8E8 /* RWRibbonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B9C651A371D7200ECD8E8 /* RWRibbonView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5BE3131A381DDD00FFD35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8B9C161A371D0000ECD8E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8B9C1D1A371D0000ECD8E8;
+			remoteInfo = FiltersLibrary;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1A8B9C1C1A371D0000ECD8E8 /* CopyFiles */ = {
@@ -27,9 +64,24 @@
 /* Begin PBXFileReference section */
 		1A8B9C1E1A371D0000ECD8E8 /* libFiltersLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFiltersLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B9C211A371D0000ECD8E8 /* FiltersLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltersLibrary.h; sourceTree = "<group>"; };
-		1A8B9C231A371D0000ECD8E8 /* FiltersLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltersLibrary.m; sourceTree = "<group>"; };
 		1A8B9C291A371D0000ECD8E8 /* FiltersLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiltersLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B9C2C1A371D0000ECD8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8B9C4D1A371D3500ECD8E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A8B9C4F1A371D4300ECD8E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A8B9C551A371D7200ECD8E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A8B9C561A371D7200ECD8E8 /* RWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
+		1A8B9C571A371D7200ECD8E8 /* RWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
+		1A8B9C591A371D7200ECD8E8 /* sampleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sampleImage.jpg; sourceTree = "<group>"; };
+		1A8B9C5B1A371D7200ECD8E8 /* RWKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
+		1A8B9C5C1A371D7200ECD8E8 /* RWKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
+		1A8B9C5D1A371D7200ECD8E8 /* RWKnobRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
+		1A8B9C5E1A371D7200ECD8E8 /* RWKnobRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
+		1A8B9C5F1A371D7200ECD8E8 /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		1A8B9C601A371D7200ECD8E8 /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		1A8B9C621A371D7200ECD8E8 /* RWRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RWRibbon.png; sourceTree = "<group>"; };
+		1A8B9C631A371D7200ECD8E8 /* RWRibbon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RWRibbon@2x.png"; sourceTree = "<group>"; };
+		1A8B9C641A371D7200ECD8E8 /* RWRibbonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRibbonView.h; sourceTree = "<group>"; };
+		1A8B9C651A371D7200ECD8E8 /* RWRibbonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRibbonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8B9C501A371D4300ECD8E8 /* Foundation.framework in Frameworks */,
+				1A8B9C4E1A371D3500ECD8E8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +107,8 @@
 		1A8B9C151A371D0000ECD8E8 = {
 			isa = PBXGroup;
 			children = (
+				1A8B9C4F1A371D4300ECD8E8 /* Foundation.framework */,
+				1A8B9C4D1A371D3500ECD8E8 /* UIKit.framework */,
 				1A8B9C201A371D0000ECD8E8 /* FiltersLibrary */,
 				1A8B9C2A1A371D0000ECD8E8 /* FiltersLibraryTests */,
 				1A8B9C1F1A371D0000ECD8E8 /* Products */,
@@ -71,8 +127,8 @@
 		1A8B9C201A371D0000ECD8E8 /* FiltersLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				1A8B9C531A371D7200ECD8E8 /* BuildAFramework */,
 				1A8B9C211A371D0000ECD8E8 /* FiltersLibrary.h */,
-				1A8B9C231A371D0000ECD8E8 /* FiltersLibrary.m */,
 			);
 			path = FiltersLibrary;
 			sourceTree = "<group>";
@@ -93,7 +149,76 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1A8B9C531A371D7200ECD8E8 /* BuildAFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B9C541A371D7200ECD8E8 /* DevApp */,
+				1A8B9C581A371D7200ECD8E8 /* ImageViewer */,
+				1A8B9C5A1A371D7200ECD8E8 /* RWKnobControl */,
+				1A8B9C611A371D7200ECD8E8 /* RWRibbon */,
+			);
+			path = BuildAFramework;
+			sourceTree = "<group>";
+		};
+		1A8B9C541A371D7200ECD8E8 /* DevApp */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B9C551A371D7200ECD8E8 /* Main.storyboard */,
+				1A8B9C561A371D7200ECD8E8 /* RWViewController.h */,
+				1A8B9C571A371D7200ECD8E8 /* RWViewController.m */,
+			);
+			path = DevApp;
+			sourceTree = "<group>";
+		};
+		1A8B9C581A371D7200ECD8E8 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B9C591A371D7200ECD8E8 /* sampleImage.jpg */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		1A8B9C5A1A371D7200ECD8E8 /* RWKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B9C5B1A371D7200ECD8E8 /* RWKnobControl.h */,
+				1A8B9C5C1A371D7200ECD8E8 /* RWKnobControl.m */,
+				1A8B9C5D1A371D7200ECD8E8 /* RWKnobRenderer.h */,
+				1A8B9C5E1A371D7200ECD8E8 /* RWKnobRenderer.m */,
+				1A8B9C5F1A371D7200ECD8E8 /* RWRotationGestureRecognizer.h */,
+				1A8B9C601A371D7200ECD8E8 /* RWRotationGestureRecognizer.m */,
+			);
+			path = RWKnobControl;
+			sourceTree = "<group>";
+		};
+		1A8B9C611A371D7200ECD8E8 /* RWRibbon */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B9C621A371D7200ECD8E8 /* RWRibbon.png */,
+				1A8B9C631A371D7200ECD8E8 /* RWRibbon@2x.png */,
+				1A8B9C641A371D7200ECD8E8 /* RWRibbonView.h */,
+				1A8B9C651A371D7200ECD8E8 /* RWRibbonView.m */,
+			);
+			path = RWRibbon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A8B9C511A371D5300ECD8E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8B9C521A371D5900ECD8E8 /* FiltersLibrary.h in Headers */,
+				1A8B9C6C1A371D7200ECD8E8 /* RWRotationGestureRecognizer.h in Headers */,
+				1A8B9C681A371D7200ECD8E8 /* RWKnobControl.h in Headers */,
+				1A8B9C6A1A371D7200ECD8E8 /* RWKnobRenderer.h in Headers */,
+				1A8B9C6E1A371D7200ECD8E8 /* RWRibbonView.h in Headers */,
+				1A8B9C661A371D7200ECD8E8 /* RWViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1A8B9C1D1A371D0000ECD8E8 /* FiltersLibrary */ = {
@@ -103,6 +228,8 @@
 				1A8B9C1A1A371D0000ECD8E8 /* Sources */,
 				1A8B9C1B1A371D0000ECD8E8 /* Frameworks */,
 				1A8B9C1C1A371D0000ECD8E8 /* CopyFiles */,
+				1A8B9C511A371D5300ECD8E8 /* Headers */,
+				1A5BE3091A38111C00FFD35E /* Build Framework */,
 			);
 			buildRules = (
 			);
@@ -139,6 +266,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Swenggco;
 				TargetAttributes = {
+					1A5BE30F1A381D9C00FFD35E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
 					1A8B9C1D1A371D0000ECD8E8 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
@@ -161,6 +291,7 @@
 			targets = (
 				1A8B9C1D1A371D0000ECD8E8 /* FiltersLibrary */,
 				1A8B9C281A371D0000ECD8E8 /* FiltersLibraryTests */,
+				1A5BE30F1A381D9C00FFD35E /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -175,12 +306,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A5BE3091A38111C00FFD35E /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		1A5BE3151A381DE700FFD35E /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A8B9C1A1A371D0000ECD8E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8B9C241A371D0000ECD8E8 /* FiltersLibrary.m in Sources */,
+				1A8B9C6F1A371D7200ECD8E8 /* RWRibbonView.m in Sources */,
+				1A8B9C6D1A371D7200ECD8E8 /* RWRotationGestureRecognizer.m in Sources */,
+				1A8B9C691A371D7200ECD8E8 /* RWKnobControl.m in Sources */,
+				1A8B9C671A371D7200ECD8E8 /* RWViewController.m in Sources */,
+				1A8B9C6B1A371D7200ECD8E8 /* RWKnobRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +359,29 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1A5BE3141A381DDD00FFD35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8B9C1D1A371D0000ECD8E8 /* FiltersLibrary */;
+			targetProxy = 1A5BE3131A381DDD00FFD35E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1A5BE3111A381D9C00FFD35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A5BE3121A381D9C00FFD35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		1A8B9C2D1A371D0000ECD8E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -271,18 +459,24 @@
 		1A8B9C301A371D0000ECD8E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/FiltersLibrary;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		1A8B9C311A371D0000ECD8E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/FiltersLibrary;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
@@ -319,6 +513,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A5BE3101A381D9C00FFD35E /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5BE3111A381D9C00FFD35E /* Debug */,
+				1A5BE3121A381D9C00FFD35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1A8B9C191A371D0000ECD8E8 /* Build configuration list for PBXProject "FiltersLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -335,6 +537,7 @@
 				1A8B9C311A371D0000ECD8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A8B9C321A371D0000ECD8E8 /* Build configuration list for PBXNativeTarget "FiltersLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -343,6 +546,7 @@
 				1A8B9C341A371D0000ECD8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
